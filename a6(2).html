@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Findings Of this Project </title>
+<style>
+body{
+ margin:3rem;
+}
+.html{
+ margin-bottom:3rem;
+}
+</style>
+</head>
+<body>
+<div class="html">
+<h2><u> FOLLOWING POINTS I HAVE LEARNED WHILE MAKING THIS CURRICULAM VITAE BY USING HTML AND CSS.</u></h2>
+<p> This HTML document start with a document type declaration: &lt;!DOCTYPE html&gt;. This &lt;!DOCTYPE html&gt; declaration defines that this is an HTML5 document. Then &lt;html&gt; element, which is the root element of an HTML page. It ends with &lt;/html&gt;. Then &lt;head&gt; tag, &lt;head&gt; element is a container for metadata. Metadata define the document title, character set, style, script and other meta information. In this document, &lt;meta&gt;, &lt;script&gt;, &lt;link&gt; and &lt;title&gt; has been used. &lt;meta&gt; tag is to make the page responsive. This tag include name=&quot;viewport&quot; content=&quot;width=device-width(set the width of the page to follow the screen width of the device), initial-scale=1.0(set the initial zoom level when the page is first loaded by the browser)&quot;. &lt;title&gt; specify a title for HTML page(which is shown in the browser’s title bar). It is close by &lt;/head&gt;. &lt;body&gt; tag is the visible part of the document </p>
+<p> <u>&lt;body&gt; Tag:-</u> &nbsp;It is the visible part of the HTML document. All the content will come under &lt;body&gt; and &lt;/body&gt;.</p>
+<p>Firstly, we will make the structure of the CV by using HTML. After that we’ll add CSS.</p>
+<p> In &lt;body&gt; tag, add image , by using &lt;img&gt; tag . &lt;img src=&quot;E:\CV/pic.jpg&quot; alt=&quot;my pic&quot; class=&quot;img&quot; height:&quot;300&quot; width:&quot;200&quot;&gt;. Src=specify path of the image, alt= specify an alternate text for the image, class= to give CSS to the image later in this project, height=specify the height of the image, width=specify the width of the image.</p>
+<p><b><u>PERSONAL DETAILS:</u></b>Select &lt;section&gt; tag  with a class=&quot;personal_details&quot;. Under this, &lt;h2&gt; PERSONAL DETAILS: &lt;/h2&gt; will come. &lt;h2&gt; tag specify the heading of this section. After that, we’ll use &lt;ul&gt; tag. &lt;ul&gt; = An Unordered list starts with &lt;ul&gt; tag and each list item start with the &lt;li&gt; tag. The list item will marked with bullets(black circle) by default. Under &lt;ul&gt; list, another &lt;ul&gt; we will use which is known as nested element. This is nothing but just a list of list. To bold any list item, use &lt;b&gt;element and close it with &lt;/b&gt;, &lt;/section&gt;.</p>
+<p><b><u>PERSONAL SKILLS:</u></b>Select &lt;section&gt; tag with a class=&quot;personal_skills&quot;. For heading use &lt;h2&gt; tag. To list all the skills, we will use &lt;ul&gt; tag , list it all the skills in &lt;li&gt; tag and close it with &lt;/li&gt;, &lt;/ul&gt;, &lt;/section&gt;.  </p>
+<p><b><u>TECHNICAL SKILLS:</u></b>Select &lt;section&gt; tag with a class=&quot;tech_skills&quot;. &lt;h2&gt; tag for heading. And &lt;li&gt; tag for listing skills. &lt;h3&gt; tag for list heading and two &lt;span&gt; tag. One with class=&quot;bar&quot; and another with class=&quot;html5&quot; and &quot;CSS&quot; respectively, and close it with &lt;/ul&gt;, &lt;/section&gt;.   </p>
+<p><b><u> CONTACT DETAILS:</u></b>Select &lt;section&gt; tag with class=&quot;contact&quot;. &lt;h1&gt; tag for heading (i.e. ABHISHEK SHAW). &lt;h2&gt; tag for another heading (i.e. WEB DEVELOPER). Use &lt;ul&gt; tag for the listing of contact details. To make contact as a hyperlink, use &lt;a href=&quot;ulr&quot; &gt; and close it with &lt;/a&gt; and then close it with &lt;/ul&gt;, &lt;/section&gt;.</p>
+<p><b><u>ABOUT ME:</u></b>Select &lt;section&gt; tag with class=&quot;aboutme&quot;. &lt;h&gt; tag for heading and &lt;p&gt; tag for paragraph. Close it with &lt;/p&gt;, &lt;/section&gt;. </p>
+<p><b><u>EDUCATION:</u></b>Select &lt;section&gt; tag with class=&quot;education&quot;.  &lt;h2&gt; tag for heading. In this section, use three &lt;ul&gt;, one &lt;ul&gt; for class 10th, second for class 12th and last one for B.Com(h).Then close it with &lt;/ul&gt;, &lt;/section&gt;. </p>
+<p><b><u>DECLARATION:</u></b>Select &lt;section&gt; tag. &lt;h2&gt; and &lt;h3&gt; tag  for heading and &lt;p&gt; tag for paragraph. Close it with &lt;/h2&gt;,&lt;/h3&gt;,&lt;/p&gt;,&lt;/section&gt;. </p>
+</div>
+
+<h2><b><u>AFTER COMPLITING THESE STEPS, WE'LL ADD CSS TO STYLE EACH ELEMENT </u></b></h2>
+<p><b> Cascading Style Sheet(CSS):</b> CSS is used to define style for web pages, including the design, layout and variations in display for different devices and screen size. The style definitions are normally saved in external .css files, with an external stylesheet file, we can change the look of an entire website by changing just one file. Example of CSS syntax:- h2{color:blue; font-size: 12px;}. Here h1 is the selector points to the html element we want to style.</p>
+<p>The declaration block contains one or more declaration separated by semicolons. Each declaration includes a CSS property name and a value, separated by colon, and surrounded by curly braces.</p>
+<p>The id selector uses the id attribute of an HTML element to select a specific element. To select an element with a specific id, write a hash(#) character, followed by the id of an element. </p>
+<p>The class selector selects HTML element with a specific class attribute. To select element with a specific class, write a period (.) character, followed by the class name. The CSS universal selector(*) select all HTML elements on the page.  </p>
+<p><b><u>THERE ARE 3 WAYS TO INSERT CSS:(1)EXTERNAL CSS	&nbsp;(2)INTERNAL CSS  &nbsp;(3)INLINE CSS </u></b></p>
+<p> For this CV, we have use external CSS. </p>
+<p> First, we have to convert this HTML page into two columns. For that we will add &lt;div class=&quot;container&quot;&gt; and inside this &lt;div&gt; again two &lt;div&gt; tag i.e. &lt;div class=&quot;left_container&quot;&gt;, &lt;div class=&quot;right_container&quot;&gt;. Inside &lt;div class=&quot;left_container&quot;&gt; we put all the elements from &lt;img&gt; to &lt;section class=&quot;tech_skills&quot;&gt; and inside &lt;div class=&quot;right_container&quot; &gt; put all the remaining elements. Close it with &lt;/div&gt; tag for every &lt;div&gt; we use. </p>
+<p><b>To add columns in CV:- </b><br>.container{display:grid; &nbsp; grid-template-columns:40% 1fr;  &nbsp; grid-gap:1rem; &nbsp;font-family:Sans-serif; &nbsp; line-height:1.5rem;  &nbsp;max-width:1000px; &nbsp; margin:auto;  &nbsp;border:2rem solid #E3E8F0;} </p>
+<p><b>To style the left part of CV:- </b><br> .left_container{background:#3B3B3B; &nbsp; color:white; &nbsp; padding:1rem; &nbsp; color:#DCDCDC;}</p>
+<p><b>To style the right part of CV:-</b> <br>.right_container{color:#232b2b;} </p>
+<p><b> To style the image of CV:-</b><br>.img{display:block; &nbsp; margin:auto; &nbsp; border-radius:9px;  &nbsp;padding-top:1rem;  &nbsp;width:70%;}</p>
+<p><b> To style the Personal Details part:-</b> <br>.personal_details li {list-style-type:none; &nbsp;line-height:1.5rem;} <br> .personal_details h2 {border-bottom:1px solid grey; &nbsp;color:#00D1D1;&nbsp; padding:5px; &nbsp;margin-top:3rem;}</p>
+<p><b> To style the Personal Skills part:-</b><br>.personal_skills li{list-style-type:none; &nbsp;line-height:1.5rem;} <br>.personal_skills h2 {border-bottom:1px solid grey;&nbsp; color:#00D1D1;&nbsp; padding:5px; &nbsp;margin-top:3rem;}</p>
+<p><b> To style the Technical Skills part:-</b><br>.tech_skills h2{border-bottom:1px solid grey;&nbsp;color:#00D1D1; &nbsp; padding:5px; &nbsp;margin-top:3rem;} <br>.tech_skills li {list-style:none;}</p>
+<p><b> To style the contact part:- </b><br>.contact h2{text-align:center;}<br>.contact a{text-decoration:none; &nbsp;color:black;} <br>.contact h1{font-size:40px; &nbsp; text-align:center;}<br>.contact ul{list-style-type:none; &nbsp;display:grid; &nbsp;grid-template-columns:1fr 1fr; &nbsp; padding:1rem; &nbsp;border-bottom:1px solid lightgrey;} <br>.contact li{padding:.5rem;} </p>
+<p><b> To style the About Me part:- </b><br> .aboutme h2{background:#E3E8F0; &nbsp;display:inline; &nbsp;border:5px solid #E3E8F0; &nbsp;border-radius:10px;}<br> .aboutme{margin-top:3rem;}</p>
+<p><b> To style the Education part:- </b><br>.education ul{display:grid; &nbsp;grid-template-columns: 1fr 1fr 1fr 1fr; &nbsp;grid-gap:3rem;} <br>.education ul{list-style:none;} <br> .education h2{border-bottom:2px solid lightgrey; &nbsp;display:inline; &nbsp;padding-bottom:5px;} <br>.education {margin-top:3rem;} </p>
+<p><b> To style the Work Experience part:- </b><br>.workexperience h2{border-bottom:2px solid lightgrey; &nbsp;display:inline; &nbsp;padding-bottom:5px;} <br>.workexperience {margin-top:3rem;} </p>
+<p><b> To style the Declaration part:-</b>.declaration h2{border-bottom:2px solid lightgrey; &nbsp;display:inline; &nbsp;padding-bottom:5px;} <br>.declaration {margin-top:3rem;}</p>
+
+</body>
+</html>
